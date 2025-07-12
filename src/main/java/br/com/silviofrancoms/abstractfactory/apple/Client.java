@@ -1,4 +1,4 @@
-package br.com.silviofrancoms.abstractfactory;
+package br.com.silviofrancoms.abstractfactory.apple;
 
 import br.com.silviofrancoms.abstractfactory.apple.factory.Iphone11Factory;
 import br.com.silviofrancoms.abstractfactory.apple.factory.IphoneFactory;
@@ -7,7 +7,6 @@ import br.com.silviofrancoms.abstractfactory.apple.factory.abstractfactory.Brazi
 import br.com.silviofrancoms.abstractfactory.apple.factory.abstractfactory.CountryRulesAbstractFactory;
 import br.com.silviofrancoms.abstractfactory.apple.factory.abstractfactory.USRulesAbstractFactory;
 import br.com.silviofrancoms.abstractfactory.apple.model.iphone.Iphone;
-import br.com.silviofrancoms.abstractfactory.apple.model.iphone.Iphone11Pro;
 
 public class Client {
     public static void main(String[] args) {
